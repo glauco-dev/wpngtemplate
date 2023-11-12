@@ -1,0 +1,60 @@
+{
+    "name": "Integra Chagas Glaucodev Theme",
+    "description": "",
+    "author": "github.com/glauco-dev",
+    "themeFeatures": [
+      "menus"
+    ],
+    "menus": [{
+      "location": "header-menu",
+      "description": "Header",
+      "initialName": "Header Menu",
+      "initialEntries": [ "Home", "Blog", "About Us", "Privacy" ],
+      "onlyRegisterLocation": false
+    },{
+      "location": "footer-menu",
+      "description": "Footer",
+      "initialName": "Footer Menu",
+      "initialEntries": [ "Footer Item 1", "Footer Item 2", "Footer Item 3", "Footer Item 4" ],
+      "onlyRegisterLocation": false
+    },{
+      "location": "sidebar-menu",
+      "description": "Sidebar Menu",
+      "onlyRegisterLocation": true
+    }],
+    "sections": [{
+      "id": "main",
+      "name": "Main Config",
+      "description": "Main configuration parameters",
+      "settings": [{
+        "id": "title",
+        "label": "Title",
+        "description": "The title of this blog",
+        "defaultValue": null,
+        "controlType": "text"
+      },{
+        "id": "author",
+        "label": "Author",
+        "description": "The author of this blog",
+        "defaultValue": null,
+        "controlType": "text"
+      },{
+        "id": "logo",
+        "label": "Logo",
+        "description": "The website logo",
+        "defaultValue": null,
+        "controlType": "image"
+      }]
+    }],
+    "widgetAreas": [{
+        "id": "header-widgets",
+        "name": "Header Widgets",
+        "description": "Widgets that will appear in the header of the page"
+      },
+      {
+        "id": "sidebar-widgets",
+        "name": "Sidebar Widgets",
+        "description": "Widgets that will appear in the sidebar of the website"
+      }
+    ]
+  }
